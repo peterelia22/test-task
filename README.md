@@ -1,16 +1,11 @@
 # test_task
 
-A new Flutter project.
+Simple Flutter test task: displays "Hello there" and changes background color on tap.
 
-## Getting Started
+## Run
+1. `flutter pub get`
+2. `flutter run`
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Notes
+- Colors generated using `dart:math` — covers 16,777,216 RGB colors.
+- Static analysis: solid_lints (add `solid_lints` to dev_dependencies and include `analysis_options.yaml`).
